@@ -1,0 +1,70 @@
+.star {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: hsl(211, 19%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    margin: 30px 0 10px 0;
+}
+
+.text {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.rating {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: hsl(211, 19%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+}
+
+.rating.active {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+}
+
+.rating:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit {
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.submit:active {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
